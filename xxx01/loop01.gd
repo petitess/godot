@@ -35,3 +35,11 @@ func _ready() -> void:
 		num += 1
 		print(num)
 		print("READY")
+		
+	var my_address: Dictionary = {
+		"street": "vasagatan",
+		"town": "gothenburg",
+		"country": "sweden"
+	}
+	for k in my_address.keys():
+		print(k, " -> ", my_address[k])
